@@ -1,0 +1,96 @@
+
+
+
+/*======= КАРТА САЙТА =========*/
+
+
+.sitemaps {
+	width: 100%;
+}
+.sitemaps__inner {
+	min-height: 600px;
+	padding: 20px;
+	border-radius: 20px;
+	border: 2px solid #6a93d0;
+	margin: 20px 0;
+}
+.sitemaps__wrapper {
+	width: 60%;
+	margin: 0 auto;
+}
+.sitemaps__list {
+	min-height: 100px;
+}
+.sitemaps__item {
+	display: flex;
+}
+.sitemaps__link {
+
+}
+.sitemaps__list {
+
+}
+.sitemaps__link-title {
+	color: #002AFF;
+	text-transform: uppercase;
+	font-size: 18pt;
+	line-height: 40px;
+	transition: .3s;
+}
+.sitemaps__link-title:hover {
+	margin-left: 5px;
+}
+.sitemaps__link-nesting {
+	color: #0BBDFF;
+	font-size: 16pt;
+	border-bottom: 1px solid #0BBDFF;
+	margin: 0 0 0 30px;
+	line-height: 30px;
+	transition: .3s;
+}
+.sitemaps__link-nesting:hover {
+	color: #2178E3;
+	border-bottom: 1px solid #2178E3;
+	margin-left: 35px;
+}
+
+@media screen and (max-width: 800px) {
+	.sitemaps__wrapper {
+		width: 70%;
+	}
+}
+@media screen and (max-width: 700px) {
+	.sitemaps__wrapper {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 600px) {
+	.sitemaps__wrapper {
+		width: 90%;
+	}
+	.sitemaps__link-title {
+		font-size: 17pt;
+	}
+	.sitemaps__link-nesting {
+		font-size: 15pt;
+	}
+}
+@media screen and (max-width: 500px) {
+	.sitemaps__wrapper {
+		width: 100%;
+	}
+	.sitemaps__link-title {
+		font-size: 16pt;
+	}
+	.sitemaps__link-nesting {
+		font-size: 14pt;
+	}
+}
+@media screen and (max-width: 400px) {
+	.sitemaps__link-title {
+		font-size: 14pt;
+	}
+	.sitemaps__link-nesting {
+		font-size: 12pt;
+	}
+}
